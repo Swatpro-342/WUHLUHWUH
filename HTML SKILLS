@@ -1,39 +1,66 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>WUHLUHWUH Group Project</title>
-   </head>
-   <body>
-      <h1>My Progress Skills </h1>
-      <svg width="150" height="150">
-         <circle cx="80" cy="80" r="50" fill="red"/>
-      </svg>
-      <br>
-      <input id="mysearch" name="searchitem" type="search" type="text" list="language">
-      <datalist id="language">
-         <option value="JAVA">
-         <option value="HTML">
-         <option value="CSS">
-         </option>
-      </datalist>
-      </br>
-      <br>
-      <td>Skills:</td>
-      <progress min="0" max="100" value="75"></progress>
-      </br>
-      <br>
-      <td>Your Name:</td>
-      <td>
-         <input ID="user" placeholder="Enter your name" name="username" type="text" autofocus>
-      </td>
-      </br>
-      <br>
-      <form autocomplete="off">
-      <label for="email">Email Address:</label>
-      <input name="Email" placeholder="email.xxx@example.com" type="text" required>
-      <input type="submit" value="Submit"/>
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+</head>
+<body>
+  <h1>My Portfolio</h1>
+  <p>Welcome to my introduction to myself!</p>
+  <p>my fav colour</p>
+
+  <!-- SVG Shape -->
+  <svg width="200" height="200">
+    <circle cx="100" cy="100" r="100" fill="green" />
+  </svg>
+
+  <h2>My Skills Experience stuff</h2>
+  <p>Violin:</p>
+  <progress min="0" max="100" value="40"></progress>
+
+  <p>Chess:</p>
+  <progress min="0" max="100" value="60"></progress>
+
+  <p>Playing:</p>
+  <progress min="0" max="100" value="50"></progress>
+
+  <h2>Search Example</h2>
+  <label for="tool">Favorite Web Tool: </label>
+  <input id="tool" type="text" list="tools">
+  <datalist id="tools">
+    <option value="Violinist.com">
+    <option value="Chess.com">
+    <option value="Roblox.com">
+  </datalist>
+
+  <h2>Contact Me</h2>
+  <form>
+    Full Name: 
+    <input type="text" name="fullname" placeholder="Enter your name">
+    <br><br>
+
+    Email Address: 
+    <input type="email" name="email" placeholder="example@example.com">
+    <br><br>
+
+    Portfolio Website: 
+    <input type="url" name="website" placeholder="https://example.com">
+    <br><br>
+
+    Phone Number: 
+    <input type="tel" name="phone" placeholder="555-555-1211">
+    <br><br>
+
+    Message: 
+    <textarea name="message" placeholder="Write something..."></textarea>
+    <br><br>
+
+    <input type="submit" value="Send">
+  </form>
+</body>
+</html>
+
+
 
 
 
